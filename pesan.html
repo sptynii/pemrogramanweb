@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interiorku | Pesan</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="../js/script.js"></script>
+</head>
+<body>
+  <header>
+    <h1 class="logo">Interiorku</h1>
+    <nav>
+      <a href="Index.html">Beranda</a>
+      <a href="Tentang.html">Tentang Kami</a>
+      <a href="layanan.html">Layanan</a>
+      <a href="galeri.html">Galeri</a>
+      <a href="testimoni.html">Testimoni</a>
+      <a href="blog.html">Blog</a>
+      <a href="kontak.html">Kontak</a>
+      <a class="order-now" href="pesan.html">Pesan Sekarang</a>
+    </nav>
+  </header>
+    
+  <section class="order-form">
+    <h2>Kirim Pesan</h2>
+    <p>Isi formulir berikut untuk mengirimkan pertanyaan atau permintaan desain kepada kami.</p>
+  </section>
+
+  <section class="form-section">
+    <form action="#" method="POST">
+      <label for="nama">Nama:</label>
+      <input type="text" id="nama" name="nama" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="layanan">Layanan yang Diinginkan:</label>
+      <select id="layanan" name="layanan">
+        <option value="rumah">Desain Rumah</option>
+        <option value="kantor">Desain Kantor</option>
+        <option value="apartemen">Desain Apartemen</option>
+        <option value="kafe">Desain Kafe & Resto</option>
+      </select>
+
+      <label for="pesan">Pesan:</label>
+      <textarea id="pesan" name="pesan" rows="5" required></textarea>
+
+      <button type="submit" class="btn">Kirim</button>
+    </form>
+  </section>
+
+  <footer class="about-footer">
+    <p>&copy; 2025 Interiorku; Made by Sherly Septiani</p>
+  </footer>
+  
+</body>
+</html>
